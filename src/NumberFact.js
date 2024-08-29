@@ -38,7 +38,7 @@ function NumberFact() {
         type="text"
         value={number}
         onChange={handleChange}
-        placeholder="Enter a number"
+        placeholder="Enter a number if you dare"
       />
       <button onClick={fetchFact}>Get Fact</button>
       {loading && <p>Loading...</p>}
